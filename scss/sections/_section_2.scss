@@ -1,0 +1,63 @@
+@use '../custom' as *;
+.section-1 {
+    .menu{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .navbar {
+    }
+    .navbar-expand-xl {
+        @include media-breakpoint-down(xl) {
+            min-width: 100%;
+        }
+    }
+    .container-xl {
+        @include media-breakpoint-down(xl) {
+            min-width: 100%;
+        }
+    }
+    .navbar-brand {
+    }
+    .navbar-toggler {
+    }
+    .navbar-toggler-icon {
+    }
+    .collapse {
+    }
+    .navbar-collapse {
+    }
+    .navbar-nav {
+    }
+    .fs-4 {
+    }
+    .nav-item {
+        @include media-breakpoint-down(xl) {
+            &:hover{
+                background-color: $color-1;
+                min-width: 100%;
+            }
+        }
+
+
+    }
+    .nav-link {
+        color: $color-3;
+        &:hover{
+            color: $color-6;
+        }
+        @include media-breakpoint-down(xl) {
+            font-size: 20px;
+        }
+    }
+    .fa-solid {
+    }
+    .fa-circle {
+        font-size: 10px;
+        text-align: center;
+        vertical-align: middle;
+        padding-right: 10px;
+        @include media-breakpoint-down(xl) {
+            display: none;
+        }
+    }
+}

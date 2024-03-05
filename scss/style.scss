@@ -1,0 +1,16 @@
+
+@use "custom";
+
+
+// import THE SECTIONS
+@use 'sections/header_1';
+@use 'sections/section_2';
+@use 'sections/section_3';
+@use 'sections/section_4';
+@use 'sections/section_5';
+@use 'sections/section_6';
+@use 'sections/footer_7';
+
+// import THE COMPONENTS
+@use 'components/fonts';
+@use 'components/mixins';

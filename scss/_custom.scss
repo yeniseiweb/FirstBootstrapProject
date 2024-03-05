@@ -1,0 +1,28 @@
+
+
+// MY THEME COLORS
+$color-1: #005c7d;
+$color-2: #008daa;
+$color-3: #06bac5;
+$color-4: #d4d0c8;
+$color-5: #eeeeed;
+$color-6: #eb477b;
+
+// IMPORT BOOTSTRAP 5
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// IMPORT BOOTSTRAP 5 ICONS
+
+$bootstrap-icons-font-src:
+    url("../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2") format("woff2"),
+    url("../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff") format("woff");
+@import "~bootstrap-icons/font/bootstrap-icons.scss";
+
+// IMPORT FONT-AWESOME
+
+@import "../src/fontawesome/scss/fontawesome.scss";
+
+
+
+

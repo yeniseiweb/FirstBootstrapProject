@@ -1,0 +1,64 @@
+@use '../custom' as *;
+.header {
+    background-color: $color-2;
+    .header-col-1{
+        @include media-breakpoint-down(lg) {
+            text-align: center;
+        }
+        a {
+            
+            color: $color-4;
+            &:hover{
+                color: $color-5;
+            }
+        }
+    }
+
+    .container-xl {
+    }
+    .row {
+    }
+    .fa-brands {
+    }
+    .fa-vk {
+        @include media-breakpoint-down(lg) {
+            font-size: 48px;
+        }
+        font-size: 32px;
+        color: $color-5;
+        &:hover{
+            color: $color-6;
+        }
+
+    }
+    .fa-facebook {
+        @include media-breakpoint-down(lg) {
+            font-size: 48px;
+        }
+        font-size: 32px;
+        color: $color-5;
+        &:hover{
+            color: $color-6;
+        }
+    }
+    .fa-instagram {
+        @include media-breakpoint-down(lg) {
+            font-size: 48px;
+        }
+        font-size: 32px;
+        color: $color-5;
+        &:hover{
+            color: $color-6;
+        }
+    }
+    .fa-twitter {
+        @include media-breakpoint-down(lg) {
+            font-size: 48px;
+        }
+        font-size: 32px;
+        color: $color-5;
+        &:hover{
+            color: $color-6;
+        }
+    }
+}

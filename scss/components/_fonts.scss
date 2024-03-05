@@ -1,0 +1,16 @@
+@use '../custom' as *;
+
+// DYNAMIC FONT-SIZE (FS-(BREAKPOINT)-SIZE)
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-size":
+      map-merge(
+        map-get($utilities, "font-size"),
+        (
+          responsive: true
+        )
+      )
+  )
+);

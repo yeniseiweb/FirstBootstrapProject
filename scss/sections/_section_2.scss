@@ -1,4 +1,7 @@
 @use '../custom' as *;
+.background-color-1{
+    background-color: $color-5;
+}
 .section-1 {
     .menu{
         font-size: 16px;

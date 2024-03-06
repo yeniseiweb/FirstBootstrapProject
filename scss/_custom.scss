@@ -8,6 +8,10 @@ $color-4: #d4d0c8;
 $color-5: #eeeeed;
 $color-6: #eb477b;
 
+
+$theme-colors: (
+  "primary":    $color-1,
+);
 // IMPORT BOOTSTRAP 5
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

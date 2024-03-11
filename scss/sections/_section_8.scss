@@ -1,0 +1,70 @@
+@use '../custom' as *;
+
+.section-7 {
+    .fa-vk {
+        @include media-breakpoint-down(lg) {
+            font-size: 48px;
+        }
+        font-size: 36px;
+        color: $color-2;
+        &:hover{
+            color: $color-6;
+        }
+    
+    }
+    .fa-facebook {
+        @include media-breakpoint-down(lg) {
+            font-size: 48px;
+        }
+        font-size: 36px;
+        color: $color-2;
+        &:hover{
+            color: $color-6;
+        }
+    }
+    .fa-instagram {
+        @include media-breakpoint-down(lg) {
+            font-size: 48px;
+        }
+        font-size: 36px;
+        color: $color-2;
+        &:hover{
+            color: $color-6;
+        }
+    }
+    .fa-twitter {
+        @include media-breakpoint-down(lg) {
+            font-size: 48px;
+        }
+        font-size: 36px;
+        color: $color-2;
+        &:hover{
+            color: $color-6;
+        }
+    }
+    .container-xl {
+    }
+    .section-7-header {
+        font-size: 32px;
+        color: $color-1;
+        font-weight: bold;
+        text-align: center;
+    }
+    .section-7-body {
+        text-align: center;
+        font-size: 24px;
+        color: $color-1;
+        a{
+            color: $color-3;
+        }
+    }
+    .fa-brands {
+
+    }
+    .section-7-arrow{
+        padding-left: 35px;
+        padding-right: 35px;
+        display: inline-block
+    }
+    
+}

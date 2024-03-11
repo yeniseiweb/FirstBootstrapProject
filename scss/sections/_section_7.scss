@@ -1,0 +1,44 @@
+@use "../custom" as *;
+.section-6 {
+    background-color: $color-5;
+    .container-xl {
+    }
+    .section-6-header {
+        color: $color-1;
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .section-6-body {
+        @include media-breakpoint-between(sm, md) {
+            width: 360px;
+        }
+        @include media-breakpoint-between(md, lg) {
+            width: 500px;
+        }
+        @include media-breakpoint-between(lg, xl) {
+            width: 650px;
+        }
+        @include media-breakpoint-between(xl, xxl) {
+            width: 650px;
+        }
+        @include media-breakpoint-up(xxl) {
+            width: 850px;
+        }
+        @include media-breakpoint-down(sm) {
+            width: 240px;
+        }
+        font-size: 16px;
+        color: $color-1;
+
+        text-align: justify;
+
+    }
+    .carousel-item{
+    }
+    .section-6-voroncova-img {
+    }
+    .section-6-voroncova-name {
+    }
+    
+}

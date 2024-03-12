@@ -1,0 +1,17 @@
+@use '../custom' as *;
+.footer {
+    background-color: $color-1;
+}
+.container-xl {
+    height: auto;
+    text-align: justify;
+    font-size: 18px;
+    color: $color-5;
+    a{
+        color: $color-5;
+    }
+}
+.fa-solid {
+}
+.fa-copyright {
+}
